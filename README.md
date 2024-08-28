@@ -1,2 +1,1 @@
-# movie-app-with-kinopoisk
-Project for trainee assignment in avito
+# PASTE APP SCREENSHOT LATER...
