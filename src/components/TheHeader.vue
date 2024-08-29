@@ -1,9 +1,8 @@
 <script setup lang="ts">
-
 </script>
 
 <template>
-  <header class="sticky">
+  <header class="container mx-auto">
     <div class="navbar bg-base-100">
       <div class="navbar-start">
         <div class="dropdown">
@@ -27,13 +26,23 @@
             tabindex="0"
             class="bg-base-100 menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            <li><a>Главная</a></li>
-            <li><a>О приложении</a></li>
+            <li>
+              <router-link to="/">
+                Главная
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/task">
+                Задание
+              </router-link>
+            </li>
           </ul>
         </div>
       </div>
       <div class="navbar-center">
-        <a class="btn btn-ghost text-xl">#поиск_кино</a>
+        <router-link to="/" class="btn btn-ghost text-xl">
+          #поиск_кино
+        </router-link>
       </div>
       <div class="navbar-end">
         <button class="btn btn-ghost btn-circle">

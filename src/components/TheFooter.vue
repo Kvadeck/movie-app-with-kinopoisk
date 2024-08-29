@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <footer class="footer footer-center bg-base-300 text-base-content p-4 bottom-0">
+  <footer class="footer footer-center bg-base-300 text-base-content p-4 bottom-0 container mx-auto">
     <aside>
       <p>Авторские права © {{ new Date().getFullYear() }} - Все права защищены</p>
     </aside>

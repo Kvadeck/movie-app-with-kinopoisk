@@ -4,7 +4,7 @@
 
 <template>
   <main class="container mx-auto flex-grow">
-    <slot></slot>
+    <slot />
   </main>
 </template>
 
