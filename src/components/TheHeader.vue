@@ -24,7 +24,7 @@
           </div>
           <ul
             tabindex="0"
-            class="bg-base-100 menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            class="bg-base-100 menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow border"
           >
             <li>
               <router-link to="/">
@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="navbar-center">
-        <router-link to="/" class="btn btn-ghost text-xl">
+        <router-link to="/" class="btn btn-ghost text-2xl">
           #поиск_кино
         </router-link>
       </div>
